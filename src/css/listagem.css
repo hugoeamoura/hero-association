@@ -1,0 +1,39 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: #6B727A;
+    color: #FFFFFF;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    transition: 0.15s ease-in-out;
+
+}
+
+.listagem .hero:hover {
+    transform: scale(1.15);
+}
+
+.listagem .hero img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.listagem .hero span {
+    padding-right: 20px;
+}
+
+.listagem .hero.ativo {
+    background-color: #FA6668;
+}
